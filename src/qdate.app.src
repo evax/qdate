@@ -5,7 +5,9 @@
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  erlang_localtime,
+                  erlware_commons
                  ]},
   {mod, { qdate_app, []}},
   {env, []}
